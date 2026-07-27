@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DNDDSJHI
 
 [Document4]
-DocumentPath=110_POWER_SYSTEMS.SchDoc
+DocumentPath=02_POWER_SYSTEMS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
