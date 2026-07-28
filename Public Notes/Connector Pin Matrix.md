@@ -1,14 +1,4 @@
----
-aliases:
-  - Connector Pin Matrix
-tags:
-  - hardware
-  - pinout
-  - connector
-cssclasses:
-  - wide-table
-  - pin-matrix
----
+Note that this is a reference (not rly needed here tbh), Up-To-Date annotated matrix is in a google sheet (linked in readme)
 ## Pin Matrix
 
 | Column 1 | A                 | B               | C               | D               | E               | F              | G               | H              | J                                       | K              | L                                  |

@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"643b45a009817408","type":"text","text":"SYS_VIN_HV pulled to 12V","x":-204,"y":180,"width":250,"height":60},
+		{"id":"7efb5b5067f04202","type":"text","text":"MODULE_POWER_ON to 5V","x":-204,"y":460,"width":250,"height":60},
+		{"id":"7bc9cc03cad0b7fd","type":"text","text":"$\\le$ 5ms wait","x":-143,"y":568,"width":128,"height":52},
+		{"id":"28d43fda9220dfd3","type":"text","text":"$\\ge$ 1ms wait ","x":-142,"y":80,"width":126,"height":50},
+		{"id":"7e7ea11d8f538d6b","type":"text","text":"SYS_VIN_MV to 5V","x":-204,"y":-40,"width":250,"height":60},
+		{"id":"26a656d0660bf84a","type":"text","text":"Release VDDIN_PWR_BAD_N\nModule will bringup to 5V","x":46,"y":330,"width":250,"height":60},
+		{"id":"b5f155c9c2dc1979","type":"text","text":"$\\ge$ 50ms wait","x":-151,"y":335,"width":144,"height":50},
+		{"id":"a1a180a23f97464a","type":"text","text":"17ms - 50ms wait","x":46,"y":568,"width":180,"height":56},
+		{"id":"723cb64ff1881088","type":"text","text":"Module pulls SYS_RESET_N to 1V8, can be pulled low again to reset","x":35,"y":704,"width":261,"height":95},
+		{"id":"85ef0126735c62d0","type":"text","text":"CARRIER_POWER_ON to 3V3\n(safe to turn on carrier board 1V8 & 3V3 peripherals)","x":-257,"y":700,"width":250,"height":99},
+		{"id":"f1ae1d9e5e96a98f","type":"file","file":"Public Notes/From Jetson Design Guide/Figure 5-2. Power On Sequence (Power Button Case).png","x":-1100,"y":-40,"width":812,"height":560}
+	],
+	"edges":[
+		{"id":"a3ce4b7be836b32f","fromNode":"7e7ea11d8f538d6b","fromSide":"bottom","toNode":"28d43fda9220dfd3","toSide":"top"},
+		{"id":"63e23f559d122a33","fromNode":"28d43fda9220dfd3","fromSide":"bottom","toNode":"643b45a009817408","toSide":"top"},
+		{"id":"a3b25c877749b4d5","fromNode":"643b45a009817408","fromSide":"bottom","toNode":"26a656d0660bf84a","toSide":"top"},
+		{"id":"ee4acb1e16ce641b","fromNode":"643b45a009817408","fromSide":"bottom","toNode":"b5f155c9c2dc1979","toSide":"top"},
+		{"id":"7a729813c85bf027","fromNode":"b5f155c9c2dc1979","fromSide":"bottom","toNode":"7efb5b5067f04202","toSide":"top"},
+		{"id":"ed7e8dba500afa3e","fromNode":"26a656d0660bf84a","fromSide":"bottom","toNode":"7efb5b5067f04202","toSide":"top"},
+		{"id":"dd35b698916bcd2d","fromNode":"7efb5b5067f04202","fromSide":"bottom","toNode":"7bc9cc03cad0b7fd","toSide":"top"},
+		{"id":"126ac06330c2aea3","fromNode":"7bc9cc03cad0b7fd","fromSide":"bottom","toNode":"85ef0126735c62d0","toSide":"top"},
+		{"id":"edabfe3ff008670b","fromNode":"7efb5b5067f04202","fromSide":"bottom","toNode":"a1a180a23f97464a","toSide":"top"},
+		{"id":"25089fe011d16a86","fromNode":"a1a180a23f97464a","fromSide":"bottom","toNode":"723cb64ff1881088","toSide":"top"}
+	]
+}
