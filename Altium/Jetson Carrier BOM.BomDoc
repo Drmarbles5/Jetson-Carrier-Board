@@ -1,0 +1,23 @@
+|RECORD=BOM|VERSION=6|FILENAME=C:\Users\nlaso\Documents\Jetson-Carrier-Board-CPRT\Altium\Jetson Carrier BOM.BomDoc|KIND=ALTIUM_DESIGNER_LIVEBOM|DATE=28.07.2026|TIME=00:24:59|CURRENCY=USD|PRODUCTIONQUANTITY=1|PERUNITTARGETPRICE=0|PERUNITACTUALPRICE=0
+|RECORD=GeneralOptions|OPENEXPORTED=False|ADDTOPROJECT=False|FORCEFIT=False|NOTFITTED=False|TEMPLATEFILENAME=|BATCHMODE=0|SUPPLIERPRODQTY=0|SUPPLIERAUTOQTY=False|SUPPLIERUSECACHEDPRICING=False|SUPPLIERCURRENCY=|SOLUTIONSPERITEM=1|SUPPLIERSPERSOLUTION=1|DISPLAYTOTALROW=False|DISPLAYSUBTOTALSFORGROUPS=False|INCLUDEPCBPARAMETERS=False|INCLUDEDBPARAMETERS=False|INCLUDEVAULTPARAMETERS=False|INCLUDECLOUDPARAMETERS=False|INCLUDEDOCUMENTPARAMETERS=False|FILTEROUTRISKYSOLUTIONS=True|DESIGNATORGROUPING=No
+|RECORD=SortOrderOptions|SORTORDER=
+|RECORD=GroupOrderOptions|GROUPORDER=
+|RECORD=VisibleOrderOptions|VISIBLEORDER=Line #=53!Comment=116!Description=100!Designator=77!Quantity=66!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116
+|RECORD=VisibleOrderOptions2|BASEVIEW=Line #=53!Comment=116!Description=-1!Designator=77!Quantity=66!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116|FLATVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116|CONSOLIDATEDVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Quantity=-1!Manufacturer 1=99!Manufacturer Part Number 1=166!Manufacturer Lifecycle 1=142!Supplier 1=72!Supplier Part Number 1=138!Supplier Unit Price 1=122!Supplier Subtotal 1=116
+|RECORD=CustomColumns|CUSTOMCOLUMNS=
+|RECORD=ColumnsAliases|COLUMNSALIASES=Comment=Name
+|RECORD=FilterOptions|FILTER=
+|RECORD=CheckGroupCompParamsOptions|CHECKGROUPCOMPPARAMS=Comment=0,Description=0,Value=0,Footprint=1
+|RECORD=ManufacturerLinkOptions|MANUFACTURERLINKPARAMETERS=
+|RECORD=FavoriteSuppliers|PARTSOURCES=|SUPPLIERS=|USESUPPLIERORDER=False
+|RECORD=CheckOptions|CHECKLEVELS=
+|RECORD=ExternalCheckOptions|CHECKLEVELS=
+|RECORD=LineNumberingOptions|STARTVALUE=|INCREMENT=
+|RECORD=Catalog|DBLINKFILEPATH=
+|RECORD=CatalogItem|ITEMTYPE=Automatic-NonVault|UNIQUEID=Schlib1.SchLib\Jetson Connector|DESIGNITEMID=Jetson Connector|ITEMSOURCE=Schlib1.SchLib|STATUS=Unknown|DESCRIPTION=204843-0001|USERCOMMENTS=Module Connector|NOTE=|LINENUMBER=|SELECTEDPARAMETERSHASH=204843-0001,"Module Connector"|COMPONENTPARAMETERS="Comment=Module Connector","Component Kind=Standard",Description=204843-0001,Footprint=2048430001,"Ibis Model=","Library Name=Schlib1.SchLib","Library Reference=Jetson Connector",PCB3D=,"Pin Info=","Signal Integrity=",Simulation=|CUSTOMPARAMETERS=
+|RECORD=PartChoiceGroups|GROUPBYFIELDCOUNT=0
+|RECORD=CatalogItem|ITEMTYPE=Automatic-NonVault|UNIQUEID=PASSIVE_COMPONENTS.SchLib\0402WGF0000TCE|DESIGNITEMID=0402WGF0000TCE|ITEMSOURCE=PASSIVE_COMPONENTS.SchLib|STATUS=Unknown|DESCRIPTION=0 Ohm Resistor
+(Not needed but NVIDIA recommends for trouble shooting).|USERCOMMENTS=0402WGF0000TCE|NOTE=|LINENUMBER=|SELECTEDPARAMETERSHASH="0 Ohm Resistor
+(Not needed but NVIDIA recommends for trouble shooting).",0402WGF0000TCE|COMPONENTPARAMETERS="Arrow Part Number=","Arrow Price/Stock=",Comment=0402WGF0000TCE,"Component Kind=Standard","Datasheet Link=https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF0000TCE_C17168.pdf","Description=0 Ohm Resistor
+(Not needed but NVIDIA recommends for trouble shooting).",Footprint=RESC1005X40N,Height=0.4mm,"Ibis Model=","Library Name=PASSIVE_COMPONENTS.SchLib","Library Reference=0402WGF0000TCE","Manufacturer_Name=UNI-ROYAL(Uniroyal Elec)",Manufacturer_Part_Number=0402WGF0000TCE,"Mouser Part Number=","Mouser Price/Stock=",PCB3D=,"Pin Info=","Signal Integrity=",Simulation=|CUSTOMPARAMETERS=
+|RECORD=PartChoiceGroups|GROUPBYFIELDCOUNT=0
